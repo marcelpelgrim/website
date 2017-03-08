@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Mobirise 3 Mediation",
+    "name": "Pelgrim Mediation",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -23,7 +23,11 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 8,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
@@ -296,6 +300,11 @@
             "Extension"
           ],
           "_name": "extFeatures13",
+          "_styles": {
+            ".etl-icon": {
+              "color": "#666666"
+            }
+          },
           "_anchor": "extFeatures13-4",
           "_params": {
             "iconsColor": "#666666",
@@ -481,12 +490,7 @@
               "family": "et-line"
             }
           },
-          "bottomTitle": "Eigen toekomst",
-          "_styles": {
-            ".etl-icon": {
-              "color": "#666666"
-            }
-          }
+          "bottomTitle": "Eigen toekomst"
         },
         {
           "_tags": [
@@ -574,8 +578,8 @@
             }
           },
           "text1": "<strong>Pelgrim Mediation</strong><br>\nKvK <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><br><br>",
-          "text2": "<strong>Contact</strong><br>\nEmail: info@pelgrimmediation.nl<br>\nMobiel: 06-51478658<br>",
-          "text3": "<strong>Links</strong><br>Facebook"
+          "text2": "<strong>Contact</strong><br>\nEmail: <a href=\"mailto:info@pelgrimmediation.nl\">info@pelgrimmediation.nl</a><br>\nMobiel: 06-51478658<br>",
+          "text3": "<strong>Links</strong><br><a href=\"https://www.facebook.com/pelgrimmediation\">Facebook</a>"
         }
       ]
     }
