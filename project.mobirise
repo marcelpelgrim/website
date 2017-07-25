@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 8,
+    "uniqCompNum": 26,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -33,7 +33,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Pelgrim Mediation",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -41,38 +41,295 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
+          "_inherit": "menu",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-1",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-m",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pelgrim-mediation-logo-2.svg",
+              "height": 128,
+              "alt": "Pelgrim Mediation",
+              "link": "http://pelgrimmediation.nl",
+              "title": "Pelgrim Mediation",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "http://pelgrimmediation.nl",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">EXTRA INFORMATIE</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"waarom-mediation.html\" aria-expanded=\"false\">Waarom mediation?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"scheidingsproces.html\">Het scheidingsprocess</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-9\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-7",
+          "_params": {
+            "imageSize": "27",
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
             "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/marcel-pelgrim-1400x2159.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
           },
           "title": "Pelgrim Mediation",
-          "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+          "text": "<b>Marcel Pelgrim</b> wordt sinds 1994 betrokken bij complexe financiële vraagstukken en gebeurtenissen die in sommige situaties het leven op zijn kop kunnen zetten. Sinds 2011 heeft hij bijzondere interesse in het scheidingsproces en heeft zich daar in de loop van de jaren in gespecialiseerd.<br><br>Met het vizier op vertrouwen en een open overlegstructuur zorgt Marcel voor een prettige samenwerking om te komen tot de beste oplossing. Wat hem kenmerkt is zijn motivatie om een volledig beeld te geven van alle mogelijkheden, daarbij de plus- en minpunten te benoemen maar de keuze aan de klant te laten. Naast dat hij zorgt dat alle partijen begrijpen wat er besproken wordt, heeft hij een structurele manier van werken waardoor de klant precies weet waar hij aan toe is.<br><br>Marcel is een allrounder; hij kan luisteren naar de klant zonder een oordeel te hebben, heeft een probleemoplossend vermogen, durft te confronteren en door zijn opleiding tot Financieel Planner (FFP) en Erkend Financieel Adviseur (EFA) is hij deskundig en heeft een professioneel inzicht, zowel zakelijk als privé.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-9",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/pelgrim-mediation-logo-2.svg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "text2": "<strong>Bedrijfsinformatie</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Roosduinen 111</span><br>2134 ZA Hoofddorp<br>KvK: <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br>",
+          "text3": "<strong>Contact</strong><br>Email: <a href=\"mailto:info@pelgrimmediation.nl\">info@pelgrimmediation.nl</a><br>Mobiel: 06-51478658<br>"
+        }
+      ]
+    },
+    "waarom-mediation.html": {
+      "settings": {
+        "title": "Waarom Mediation",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-a",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pelgrim-mediation-logo-2.svg",
+              "height": 128,
+              "alt": "Pelgrim Mediation",
+              "link": "http://pelgrimmediation.nl",
+              "title": "Pelgrim Mediation",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">EXTRA INFORMATIE</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"waarom-mediation.html\" aria-expanded=\"false\">Waarom mediation?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"scheidingsproces.html\">Het scheidingsprocess</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-9\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_styles": {
@@ -121,7 +378,7 @@
             "Extension"
           ],
           "_name": "extFeatures8",
-          "_anchor": "extFeatures8-2",
+          "_anchor": "extFeatures8-b",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -290,9 +547,151 @@
             "showSubtitle": false,
             "showBullets": true
           },
-          "_anchor": "extTestimonials1-5",
+          "_anchor": "extTestimonials1-c",
           "title": "Wat anderen zeggen over Pelgrim Mediation",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-f",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/pelgrim-mediation-logo-2.svg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "text2": "<strong>Bedrijfsinformatie</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Roosduinen 111</span><br>2134 ZA Hoofddorp<br>KvK: <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br>",
+          "text3": "<strong>Contact</strong><br>Email: <a href=\"mailto:info@pelgrimmediation.nl\">info@pelgrimmediation.nl</a><br>Mobiel: 06-51478658<br>"
+        }
+      ]
+    },
+    "scheidingsproces.html": {
+      "settings": {
+        "title": "Het Scheidingsproces",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-g",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/pelgrim-mediation-logo-2.svg",
+              "height": 128,
+              "alt": "Pelgrim Mediation",
+              "link": "http://pelgrimmediation.nl",
+              "title": "Pelgrim Mediation",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">EXTRA INFORMATIE</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"waarom-mediation.html\" aria-expanded=\"false\">Waarom mediation?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"scheidingsproces.html\">Het scheidingsprocess</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-9\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "alias": "mobirise3-blocks/components",
@@ -305,7 +704,7 @@
               "color": "#666666"
             }
           },
-          "_anchor": "extFeatures13-4",
+          "_anchor": "extFeatures13-j",
           "_params": {
             "iconsColor": "#666666",
             "blocks": "5",
@@ -493,63 +892,95 @@
           "bottomTitle": "Eigen toekomst"
         },
         {
+          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "header2",
-          "_anchor": "header2-7",
+          "_name": "extTestimonials1",
           "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
+            "autoplay": true,
+            "timeout": "10",
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "slides": [
+              {
+                "active": false,
+                "text": "<p>“Dank voor de bijzondere manier waarop je mij geholpen hebt. Ik heb direct het gevoel gehad dat je ons begreep; je bent belangstellend en hebt met ons meegeleefd. Wij hebben met jou hulp de juiste  afspraken kunnen maken en de zaken goed geregeld.”</p>",
+                "media": {
+                  "image": {
+                    "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/face1.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                },
+                "authorName": "Rosalie",
+                "authorBio": "Moeder van twee kinderen"
+              },
+              {
+                "active": false,
+                "text": "\"Marcel, wat heb jij een geduld! Je hebt mij door de enorme hoeveelheid dingen die gedaan moesten worden heen geloodst. Door jou weet ik dat de zakelijke kant goed zit en kan ik werken aan herstel van mijn leven. Dankjewel.\"",
+                "media": {
+                  "image": {
+                    "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/face2.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                },
+                "authorName": "Abanoub S.",
+                "authorBio": "User"
+              },
+              {
+                "active": true,
+                "text": "<p>“Eindelijk iemand die de tijd heeft om te luisteren en die mij (chaoot) helpt organiseren. Wat fijn dat je zoveel aandacht had voor de leefwereld van onze kinderen. Je hebt mij wakker geschud en goede tips gegeven om voor mezelf te zorgen, ik ben op de goede weg!”</p>",
+                "media": {
+                  "image": {
+                    "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/face3.jpg",
+                    "class": "img-circle",
+                    "link": "https://mobirise.com",
+                    "height": 160,
+                    "width": 160,
+                    "active": true
+                  }
+                },
+                "authorName": "Suffian A.",
+                "authorBio": "User"
+              }
+            ],
+            "showImages": false,
+            "showName": false,
+            "showBio": false,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
+            "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "inverse": false,
             "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
+            "showSubtitle": false,
+            "showBullets": true
           },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/marcel-pelgrim-1400x2159.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Pelgrim Mediation",
-          "text": "<b>Marcel Pelgrim</b> wordt sinds 1994 betrokken bij complexe financiële vraagstukken en gebeurtenissen die het leven op zijn kop kunnen zetten. Sinds 2011 heeft hij bijzondere interesse in het scheidingsproces en heeft zich vaak verwonderd over de mate van deskundigheid van sommige branchegenoten. Een lage kwaliteit van het echtscheidingsconvenant kan vergaande gevolgen hebben en dit moet stoppen!<br><br>Met het vizier op vertrouwen en een open overlegstructuur zorgt Marcel voor een prettige samenwerking om te komen tot de beste oplossing. Wat hem kenmerkt is zijn motivatie om een volledig beeld te geven van alle mogelijkheden, daarbij de plus- en minpunten te benoemen maar de keuze aan de klant te laten. Naast dat hij zorgt dat alle partijen begrijpen wat er besproken wordt, heeft hij een structurele manier van werken waardoor de klant precies weet waar hij aan toe is.<br><br>Marcel is een allrounder; hij kan luisteren naar de klant zonder een oordeel te hebben, heeft een probleemoplossend vermogen, durft te confronteren en door zijn opleiding tot Financieel Planner (FFP) en Erkend Financieel Adviseur (EFA) is hij deskundig en heeft een professioneel inzicht, zowel zakelijk als privé.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "_anchor": "extTestimonials1-i",
+          "title": "Wat anderen zeggen over Pelgrim Mediation",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-6",
+          "_anchor": "contacts1-l",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -564,22 +995,23 @@
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "width": 128
+              "src": "@PROJECT_PATH@/assets/images/pelgrim-mediation-logo-2.svg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "thumbs-o-up",
-              "family": "FontAwesome",
               "link": "",
-              "size": 0,
-              "active": true
+              "size": 0
             }
           },
-          "text1": "<strong>Pelgrim Mediation</strong><br>\nKvK <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><br><br>",
-          "text2": "<strong>Contact</strong><br>\nEmail: <a href=\"mailto:info@pelgrimmediation.nl\">info@pelgrimmediation.nl</a><br>\nMobiel: 06-51478658<br>",
-          "text3": "<strong>Links</strong><br><a href=\"https://www.facebook.com/pelgrimmediation\">Facebook</a>"
+          "text1": "",
+          "text2": "<strong>Bedrijfsinformatie</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Roosduinen 111</span><br>2134 ZA Hoofddorp<br>KvK: <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br>",
+          "text3": "<strong>Contact</strong><br>Email: <a href=\"mailto:info@pelgrimmediation.nl\">info@pelgrimmediation.nl</a><br>Mobiel: 06-51478658<br>"
         }
       ]
     }
