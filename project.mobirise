@@ -159,7 +159,7 @@
             "paddingBottom": 1,
             "bgColor": "#3366ff"
           },
-          "text": "<p>Besluiten om uit elkaar te gaan is een grote stap die op beide partners veel impact heeft. Naast alle emoties komen er ook veel praktische zaken op je af, zoals: Wie blijft er in het huis wonen of moet het verkocht worden? Kan ik zelfstandig financieel rondkomen? Moet ik alimentatie betalen of ga ik juist alimentatie ontvangen? Hoe verdelen we de bezittingen? We hebben een eigen bedrijf, hoe gaan we dat regelen? Hoe regelen we de zorg voor onze kinderen? Hoe moeten we juridisch alles afhandelen?</p>",
+          "text": "<p>Besluiten om uit elkaar te gaan is een grote stap die op beide partners en eventuele kinderen veel impact heeft. Naast alle emoties komen er ook veel praktische zaken op je af, zoals: Wie blijft er in het huis wonen of moet het verkocht worden? Kan ik zelfstandig financieel rondkomen? Moet ik alimentatie betalen of ga ik juist alimentatie ontvangen? Hoe verdelen we de bezittingen? We hebben een eigen bedrijf, hoe gaan we dat regelen? Hoe regelen we de zorg voor onze kinderen? Hoe moeten we juridisch alles afhandelen?</p>",
           "_tags": [
             "Theme"
           ],
@@ -169,7 +169,8 @@
             "P": {
               "color": "#ffffff"
             }
-          }
+          },
+          "_customCSS": ""
         },
         {
           "_params": {
@@ -178,7 +179,7 @@
             "bgColor": "#fff"
           },
           "text1": "<b>Zorgen wegnemen</b><div>Als onpartijdige en deskundige scheidingsmediator geeft Marcel Pelgrim inzicht in uw vragen en ontzorgt daardoor de praktische (financieel-/juridische) kant van de scheiding zonder de emoties uit het oog te verliezen. Marcel Pelgrim blijft betrokken bij het scheidingsproces tot dat het afgerond is.</div><div><br></div>",
-          "text2": "<p><b>Deskundig advies met passie voor de klant</b></p><p> Met zijn bancaire achtergrond is Marcel Pelgrim in het verleden veel situaties tegengekomen waarbij klanten de scheiding door een ondeskundige persoon hebben laten regelen.&nbsp;<span style=\"font-size: 1.07rem;\">Hierdoor kunnen flinke tekortkomingen ontstaan, denk aan afspraken welke juridisch niet kloppen of aan de bezittingen welke niet juist geïnventariseerd zijn (zoals bijvoorbeeld het pensioen) en niet volgens fiscale regels verdeeld worden. Fouten kunnen verstrekkende gevolgen hebben welke na de definitieve scheiding moeilijk recht te zetten zijn. Om mensen op een juiste manier te begeleiden, is Marcel Pelgrim zijn eigen praktijk gestart waarbij klanten zeer tevreden zijn en dat is zijn uiteindelijke doel.</span></p>",
+          "text2": "<p><b>Deskundig advies met passie voor de klant</b></p><p><span style=\"font-size: 1.07rem;\"> Met zijn bancaire achtergrond is Marcel Pelgrim in het verleden veel situaties tegengekomen waarbij klanten de scheiding door een ondeskundige persoon hebben laten regelen.&nbsp;</span><span style=\"font-size: 1.07rem;\">Hierdoor kunnen flinke tekortkomingen ontstaan, denk aan afspraken welke juridisch niet kloppen of aan de bezittingen welke niet juist geïnventariseerd zijn (zoals bijvoorbeeld het pensioen) en niet volgens fiscale regels verdeeld worden. Fouten kunnen verstrekkende gevolgen hebben welke na de definitieve scheiding moeilijk recht te zetten zijn. Om mensen op een juiste manier te begeleiden, is Marcel Pelgrim zijn eigen praktijk gestart waarbij klanten zeer tevreden zijn en dat is zijn uiteindelijke doel.</span></p>",
           "_tags": [
             "Theme"
           ],
@@ -396,21 +397,6 @@
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">EXTRA INFORMATIE</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"waarom-mediation.html\">Waarom mediation?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"scheidingsproces.html\">Het scheidingsproces</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-9\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
-          "_styles": {
-            ".feature-title, .description": {
-              "color": "#232323"
-            },
-            ".feature-subtitle": {
-              "color": "#8c8c8c",
-              "text-align": "left"
-            },
-            "P": {
-              "text-align": "left"
-            },
-            ".feature-title": {
-              "text-align": "left"
-            }
-          },
           "media3": {
             "iconFont": {
               "active": true,
@@ -529,7 +515,12 @@
           },
           "feature_title5": "Eerlijk tarief",
           "feature_subtitle5": "Elke echtscheiding is anders",
-          "feature_text5": "Pelgrim Mediation staat voor eerlijke tarieven omdat scheiden maatwerk is. Zijn jullie het snel eens over de verdeling? Hebben jullie een eigen woning? Hebben jullie minderjarige kinderen of is er sprake van een eigen onderneming? Dit bepaalt het tijdsbestek en beïnvloedt de kosten van de scheidingsbegeleiding; vraag naar het tarief in het kennismakingsgesprek.<br>"
+          "feature_text5": "Pelgrim Mediation staat voor eerlijke tarieven omdat scheiden maatwerk is. Zijn jullie het snel eens over de verdeling? Hebben jullie een eigen woning? Hebben jullie minderjarige kinderen of is er sprake van een eigen onderneming? Dit bepaalt het tijdsbestek en beïnvloedt de kosten van de scheidingsbegeleiding; vraag naar het tarief in het kennismakingsgesprek.<br>",
+          "_customHTML": "<section class=\"mbr-cards features6 icons mbr-section mbr-after-navbar\" data-rv-view=\"172\" style=\"background-color: rgb(233, 233, 233); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"185\">Waarom mediation?</h3>\n\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"186\">Op een goede en weloverwogen manier uit elkaar.</small>\n\n                </div>\n            </div>\n        </div>\n    </div>\n\n\n    <div class=\"icon-features\">\n        <div class=\"features6-container container\">\n            <div class=\"features-left col-xl-4\">\n\n                <div class=\"features-box\">\n                    <div class=\"content\">\n\n                        <div class=\"feature-title mbr-editable-content\" code-editable-id=\"187\">Overlegscheiding</div>\n\n                        <small class=\"feature-subtitle mbr-editable-content\" code-editable-id=\"188\">Niet te snel naar een advocaat stappen</small>\n\n                        <p class=\"description mbr-editable-content\" code-editable-id=\"189\">Een echtscheiding is een ingrijpende gebeurtenis wat een storm van emoties veroorzaakt, zeker als er kinderen bij betrokken zijn. Of je zelf voor een scheiding kiest of dat het je overkomt; denk goed na over de stappen die je neemt. Soms wordt te snel door elke partij een advocaat ingeschakeld om de eigen belangen te behartigen. Een langdurige en kostbare ‘vechtscheiding’ kan het gevolg zijn. Om dit te voorkomen en met elkaar in gesprek te blijven, is het goed om een onafhankelijk persoon in te schakelen; een mediator.<br></p>\n\n                    </div>\n\n                    <div class=\"icon-right\"><span class=\"mbri-users mbr-iconfont-features6\" style=\"color: rgb(192, 163, 117);\"></span></div>\n\n                </div>\n\n                <div class=\"features-box last\">\n                    <div class=\"content\">\n\n                        <div class=\"feature-title mbr-editable-content\" code-editable-id=\"190\">Wat is een mediator</div>\n\n                        <small class=\"feature-subtitle mbr-editable-content\" code-editable-id=\"191\">rust, ruimte en een open sfeer</small>\n\n                        <p class=\"description mbr-editable-content\" code-editable-id=\"192\">Een mediator is een bemiddelingsdeskundige; deze persoon zorgt voor rust, ruimte en een open sfeer waardoor de standpunten onpartijdig benaderd kunnen worden. Het doel is om op een gefundeerde en weloverwogen manier  tot een gezamenlijke oplossing te komen. </p>\n\n                    </div>\n                    <div class=\"icon-right\"><span class=\"mbri-user mbr-iconfont-features6\" style=\"color: rgb(192, 163, 117);\"></span></div>\n\n                </div>\n\n            </div>\n\n\n            <div class=\"col-xl-4 image\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg\" class=\"central-image\"></div>\n\n\n            <div class=\"features-right col-xl-4\">\n\n                <div class=\"features-box\">\n\n                    <div class=\"icon-left\"><span class=\"imind-diploma-2 mbr-iconfont-features6\" style=\"color: rgb(192, 163, 117);\"></span></div>\n\n                    <div class=\"content\">\n\n                        <div class=\"feature-title mbr-editable-content\" code-editable-id=\"193\">Expertise</div>\n\n                        <small class=\"feature-subtitle mbr-editable-content\" code-editable-id=\"194\">Financieel, fiscaal en juridische achtergrond</small>\n\n                        <p class=\"description mbr-editable-content\" code-editable-id=\"195\">Een mediator met een aantoonbare financiële, fiscale en juridische achtergrond heeft een grote meerwaarde; hierdoor weet je dat alle facetten aan de orde komen en dat de afspraken die in het echtscheidingsconvenant vastgelegd worden ook uitvoerbaar zijn voor andere partijen zoals de bank en het pensioenfonds.&nbsp;<br></p>\n\n                    </div>\n                </div>\n\n                <div class=\"features-box last\">\n\n                    <div class=\"icon-left\"><span class=\"imind-euro-sign mbr-iconfont-features6\" style=\"color: rgb(192, 163, 117);\"></span></div>\n\n                    <div class=\"content\">\n\n                        <div class=\"feature-title mbr-editable-content\" code-editable-id=\"196\">Eerlijk tarief</div>\n\n                        <small class=\"feature-subtitle mbr-editable-content\" code-editable-id=\"197\">Elke echtscheiding is anders</small>\n\n                        <p class=\"description mbr-editable-content\" code-editable-id=\"198\">Pelgrim Mediation staat voor eerlijke tarieven omdat scheiden maatwerk is. Zijn jullie het snel eens over de verdeling? Hebben jullie een eigen woning? Hebben jullie minderjarige kinderen of is er sprake van een eigen onderneming? Dit bepaalt het tijdsbestek en beïnvloedt de kosten van de scheidingsbegeleiding; vraag naar het tarief in het kennismakingsgesprek.<br></p>\n\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".feature-title, .description {\n  color: #232323;\n}\n.feature-subtitle {\n  color: #8c8c8c;\n  text-align: left;\n}\nP {\n  text-align: left;\n}\n.feature-title {\n  text-align: left;\n}\n.features-left {\n   text-align: left;\n}\n",
+          "_customTemplate": true
         },
         {
           "alias": "mobirise3-blocks/components",

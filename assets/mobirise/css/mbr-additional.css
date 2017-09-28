@@ -819,6 +819,9 @@ h6,
 #extFeatures8-b .feature-title {
   text-align: left;
 }
+#extFeatures8-b .features-left {
+  text-align: left;
+}
 #menu-q .hide-buttons .nav-btn {
   display: none !important;
 }
