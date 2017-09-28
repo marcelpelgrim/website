@@ -674,6 +674,7 @@ h6,
 }
 #menu-q .navbar-caption {
   color: #ffffff;
+  font-size: 16px;
 }
 #menu-q .navbar-toggler {
   color: #ffffff;
@@ -729,6 +730,19 @@ h6,
 #menu-q .link[aria-expanded="true"],
 #menu-q .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
+}
+#header3-t .mbr-section-title,
+#header3-t .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-t .mbr-section-title {
+  color: #ffffff;
+}
+#content1-x P {
+  color: #ffffff;
+}
+#header2-7 .mbr-section-title {
+  font-size: 24px;
 }
 #menu-q .hide-buttons .nav-btn {
   display: none !important;
@@ -810,6 +824,7 @@ h6,
 }
 #menu-q .navbar-caption {
   color: #ffffff;
+  font-size: 16px;
 }
 #menu-q .navbar-toggler {
   color: #ffffff;

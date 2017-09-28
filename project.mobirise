@@ -19,14 +19,17 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#3366ff"
+      ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 27,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 40,
+    "versionPublish": "4.3.2",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "",
+    "google-analytics": "<!-- Global Site Tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-107211981-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments)};\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-107211981-1');\r\n</script>",
     "cookiesAlert": ""
   },
   "pages": {
@@ -46,7 +49,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "16px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -95,17 +99,17 @@
           "_name": "menu",
           "_anchor": "menu-q",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -123,8 +127,63 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PELGRIM MEDIATION</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://www.pelgrimmediation.nl\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PELGRIM MEDIATION<br>Scheidingsbemiddeling<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">EXTRA INFORMATIE</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"waarom-mediation.html\">Waarom mediation?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"scheidingsproces.html\">Het scheidingsproces</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-9\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#3366ff"
+          },
+          "title": "Hulp bij scheiding",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-t"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#3366ff"
+          },
+          "text": "<p>Besluiten om uit elkaar te gaan is een grote stap die op beide partners veel impact heeft. Naast alle emoties komen er ook veel praktische zaken op je af, zoals: Wie blijft er in het huis wonen of moet het verkocht worden? Kan ik zelfstandig financieel rondkomen? Moet ik alimentatie betalen of ga ik juist alimentatie ontvangen? Hoe verdelen we de bezittingen? We hebben een eigen bedrijf, hoe gaan we dat regelen? Hoe regelen we de zorg voor onze kinderen? Hoe moeten we juridisch alles afhandelen?</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-x",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<b>Zorgen wegnemen</b><div>Als onpartijdige en deskundige scheidingsmediator geeft Marcel Pelgrim inzicht in uw vragen en ontzorgt daardoor de praktische (financieel-/juridische) kant van de scheiding zonder de emoties uit het oog te verliezen. Marcel Pelgrim blijft betrokken bij het scheidingsproces tot dat het afgerond is.</div><div><br></div>",
+          "text2": "<p><b>Deskundig advies met passie voor de klant</b></p><p> Met zijn bancaire achtergrond is Marcel Pelgrim in het verleden veel situaties tegengekomen waarbij klanten de scheiding door een ondeskundige persoon hebben laten regelen.&nbsp;<span style=\"font-size: 1.07rem;\">Hierdoor kunnen flinke tekortkomingen ontstaan, denk aan afspraken welke juridisch niet kloppen of aan de bezittingen welke niet juist geïnventariseerd zijn (zoals bijvoorbeeld het pensioen) en niet volgens fiscale regels verdeeld worden. Fouten kunnen verstrekkende gevolgen hebben welke na de definitieve scheiding moeilijk recht te zetten zijn. Om mensen op een juiste manier te begeleiden, is Marcel Pelgrim zijn eigen praktijk gestart waarbij klanten zeer tevreden zijn en dat is zijn uiteindelijke doel.</span></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-s"
         },
         {
           "_tags": [
@@ -133,24 +192,24 @@
           "_name": "header2",
           "_anchor": "header2-7",
           "_params": {
-            "imageSize": "27",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
             "showTitle": true,
             "showText": true,
             "showButtons": false,
-            "showArrow": false
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": "27",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
           },
           "media": {
             "image": {
@@ -174,9 +233,32 @@
               "size": 250
             }
           },
-          "title": "PELGRIM MEDIATION",
-          "text": "<b>Marcel Pelgrim</b> wordt sinds 1994 betrokken bij complexe financiële vraagstukken en gebeurtenissen die in sommige situaties het leven op zijn kop kunnen zetten. Sinds 2011 heeft hij bijzondere interesse in het scheidingsproces en heeft zich daar in de loop van de jaren in gespecialiseerd.<br><br>Met het vizier op vertrouwen en een open overlegstructuur zorgt Marcel voor een prettige samenwerking om te komen tot de beste oplossing. Wat hem kenmerkt is zijn motivatie om een volledig beeld te geven van alle mogelijkheden, daarbij de plus- en minpunten te benoemen maar de keuze aan de klant te laten. Naast dat hij zorgt dat alle partijen begrijpen wat er besproken wordt, heeft hij een structurele manier van werken waardoor de klant precies weet waar hij aan toe is.<br><br>Marcel is een allrounder; hij kan luisteren naar de klant zonder een oordeel te hebben, heeft een probleemoplossend vermogen, durft te confronteren en door zijn opleiding tot Financieel Planner (FFP) en Erkend Financieel Adviseur (EFA) is hij deskundig en heeft een professioneel inzicht, zowel zakelijk als privé.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "title": "Marcel Pelgrim",
+          "text": "<b>Marcel Pelgrim</b>&nbsp;is sinds 1994 werkzaam in de financiële dienstverlening en wordt betrokken bij complexe financiële vraagstukken en gebeurtenissen die in sommige situaties het leven op zijn kop kunnen zetten. Sinds 2011 heeft hij bijzondere interesse in het scheidingsproces en heeft zich daar in de loop van de jaren in gespecialiseerd. <br><br>Met het vizier op vertrouwen en een open overlegstructuur zorgt Marcel Pelgrim voor een prettige samenwerking om te komen tot de beste oplossing voor beide partijen. Wat hem kenmerkt is zijn motivatie om een volledig beeld te geven waarbij hij zorgt dat beide partijen begrijpen wat er besproken wordt. Daarnaast heeft hij een structurele manier van werken waardoor de klant precies weet waar hij of zij aan toe is. <br><br>Marcel is een allrounder; hij kan luisteren naar de klant zonder een oordeel te hebben, heeft een probleemoplossend vermogen, durft te confronteren en door zijn opleiding tot Financieel Planner (FFP) en Erkend Financieel Adviseur (EFA) is hij deskundig en heeft een professioneel inzicht, zowel zakelijk als privé.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header2\" data-rv-view=\"112\" style=\"background-color: rgb(46, 46, 46);\">\n\n    \n\n    <div class=\"mbr-table mbr-table-full\">\n        <div class=\"mbr-table-cell\">\n\n            <div class=\"container\">\n                <div class=\"mbr-section row\">\n                    <div class=\"mbr-table-md-up\">\n                        \n                        \n                        \n\n                        <div class=\"mbr-table-cell col-md-5 content-size text-xs-center text-md-right\">\n\n                            <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"85\">Marcel Pelgrim</h3>\n\n                            <div class=\"mbr-section-text\">\n                                <p class=\"mbr-editable-content\" code-editable-id=\"86\"><strong>Marcel Pelgrim</strong>&nbsp;is sinds 1994 werkzaam in de financiële dienstverlening en wordt betrokken bij complexe financiële vraagstukken en gebeurtenissen die in sommige situaties het leven op zijn kop kunnen zetten. Sinds 2011 heeft hij bijzondere interesse in het scheidingsproces en heeft zich daar in de loop van de jaren in gespecialiseerd. <br><br>Met het vizier op vertrouwen en een open overlegstructuur zorgt Marcel Pelgrim voor een prettige samenwerking om te komen tot de beste oplossing voor beide partijen. Wat hem kenmerkt is zijn motivatie om een volledig beeld te geven waarbij hij zorgt dat beide partijen begrijpen wat er besproken wordt. Daarnaast heeft hij een structurele manier van werken waardoor de klant precies weet waar hij of zij aan toe is. <br><br>Marcel is een allrounder; hij kan luisteren naar de klant zonder een oordeel te hebben, heeft een probleemoplossend vermogen, durft te confronteren en door zijn opleiding tot Financieel Planner (FFP) en Erkend Financieel Adviseur (EFA) is hij deskundig en heeft een professioneel inzicht, zowel zakelijk als privé.<br></p>\n                            </div>\n\n                            \n\n                        </div>\n                        <div class=\"mbr-table-cell mbr-valign-top mbr-left-padding-md-up col-md-7 image-size\" style=\"width: 27%;\">\n                            <div class=\"mbr-figure\"><img src=\"@PROJECT_PATH@/assets/images/marcel-pelgrim-1400x2159.jpg\"></div>\n                        </div>\n\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n\n    \n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section-title {\n  font-size: 24px;\n}\n",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-12",
+          "_customHTML": "<section class=\"mbr-section article mbr-section__container\" data-rv-view=\"130\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12 lead mbr-editable-full\" code-editable-id=\"84\"><p>\n                <img src=\"@PROJECT_PATH@/assets/images/ffp-gecertificeerd.png\" width=\"100\">&nbsp;&nbsp;&nbsp;<img src=\"@PROJECT_PATH@/assets/images/erkend-financieel-adviseur.png\" width=\"100\" align=\"center\">\n            </p></div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "_tags": [
@@ -188,13 +270,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -213,7 +295,7 @@
             }
           },
           "text1": "",
-          "text2": "<strong>Bedrijfsinformatie</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Roosduinen 111</span><br>2134 ZA Hoofddorp<br>KvK: <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br>",
+          "text2": "<strong>Bedrijfsinformatie</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Roosduinen 111</span><br>2134 ZA Hoofddorp<br>KvK: <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><br>BTW:&nbsp;NL1835.18147.B01<a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br>",
           "text3": "<strong>Contact</strong><br>Email: <a href=\"mailto:info@pelgrimmediation.nl\">info@pelgrimmediation.nl</a><br>Mobiel: 06-51478658<br>"
         }
       ]
@@ -282,17 +364,17 @@
           "_name": "menu",
           "_anchor": "menu-q",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -310,7 +392,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PELGRIM MEDIATION</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://www.pelgrimmediation.nl\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PELGRIM MEDIATION<br>Scheidingsbemiddeling<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">EXTRA INFORMATIE</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"waarom-mediation.html\">Waarom mediation?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"scheidingsproces.html\">Het scheidingsproces</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-9\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -362,22 +444,22 @@
           "_name": "extFeatures8",
           "_anchor": "extFeatures8-b",
           "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/extFeatures1/images/jumbotron.jpg",
-            "bgColor": "#e9e9e9",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#e9e9e9",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.75,
             "overlayColor": "#151515",
-            "showTitle": true,
-            "showSubtitle": true
+            "overlayOpacity": 0.75
           },
           "title": "Waarom mediation?",
           "subtitle": "Op een goede en weloverwogen manier uit elkaar.",
@@ -431,7 +513,7 @@
               "color": "@primaryColor"
             }
           },
-          "feature_title4": "Mediator +",
+          "feature_title4": "Expertise",
           "feature_subtitle4": "Financieel, fiscaal en juridische achtergrond",
           "feature_text4": "Een mediator met een aantoonbare financiële, fiscale en juridische achtergrond heeft een grote meerwaarde; hierdoor weet je dat alle facetten aan de orde komen en dat de afspraken die in het echtscheidingsconvenant vastgelegd worden ook uitvoerbaar zijn voor andere partijen zoals de bank en het pensioenfonds.&nbsp;<br>",
           "media5": {
@@ -456,14 +538,32 @@
           ],
           "_name": "extTestimonials1",
           "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": false,
+            "showBio": false,
             "autoplay": true,
             "timeout": "10",
             "paddingTop": 2,
             "paddingBottom": 1,
+            "showBullets": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
             "slides": [
               {
                 "active": false,
-                "text": "<p>“Dank voor de bijzondere manier waarop je mij geholpen hebt. Ik heb direct het gevoel gehad dat je ons begreep; je bent belangstellend en hebt met ons meegeleefd. Wij hebben met jou hulp de juiste  afspraken kunnen maken en de zaken goed geregeld.”</p>",
+                "text": "<p>“Dank voor de bijzondere manier waarop je mij geholpen hebt. Ik heb direct het gevoel gehad dat je ons begreep; je bent belangstellend en hebt met ons meegeleefd. Wij hebben met jouw hulp de juiste  afspraken kunnen maken en de zaken goed geregeld.”</p>",
                 "media": {
                   "image": {
                     "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/face1.jpg",
@@ -509,25 +609,7 @@
                 "authorName": "Suffian A.",
                 "authorBio": "User"
               }
-            ],
-            "showImages": false,
-            "showName": false,
-            "showBio": false,
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showSubtitle": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "extTestimonials1-c",
           "title": "Wat anderen zeggen over Pelgrim Mediation",
@@ -543,13 +625,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -588,7 +670,8 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "16px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -637,17 +720,17 @@
           "_name": "menu",
           "_anchor": "menu-q",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -665,7 +748,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PELGRIM MEDIATION</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://www.pelgrimmediation.nl\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PELGRIM MEDIATION<br>Scheidingsbemiddeling<br></a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">EXTRA INFORMATIE</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"waarom-mediation.html\">Waarom mediation?</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"scheidingsproces.html\">Het scheidingsproces</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-9\" aria-expanded=\"false\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
@@ -681,25 +764,25 @@
           },
           "_anchor": "extFeatures13-j",
           "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true,
             "iconsColor": "#666666",
             "blocks": "5",
             "paddingTop": 2,
             "paddingBottom": 2,
             "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extHeader14_bg.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": true,
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "showTitle": true,
-            "showSubtitle": true,
-            "showDates": true
+            "overlayOpacity": 0.5
           },
           "mainTitle": "Het scheidingsproces",
           "mainSubtitle": "Wat wordt er besproken",
@@ -873,14 +956,32 @@
           ],
           "_name": "extTestimonials1",
           "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": false,
+            "showBio": false,
             "autoplay": true,
             "timeout": "10",
             "paddingTop": 2,
             "paddingBottom": 1,
+            "showBullets": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
             "slides": [
               {
                 "active": false,
-                "text": "<p>“Dank voor de bijzondere manier waarop je mij geholpen hebt. Ik heb direct het gevoel gehad dat je ons begreep; je bent belangstellend en hebt met ons meegeleefd. Wij hebben met jou hulp de juiste  afspraken kunnen maken en de zaken goed geregeld.”</p>",
+                "text": "<p>“Dank voor de bijzondere manier waarop je mij geholpen hebt. Ik heb direct het gevoel gehad dat je ons begreep; je bent belangstellend en hebt met ons meegeleefd. Wij hebben met jouw hulp de juiste  afspraken kunnen maken en de zaken goed geregeld.”</p>",
                 "media": {
                   "image": {
                     "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/face1.jpg",
@@ -926,25 +1027,7 @@
                 "authorName": "Suffian A.",
                 "authorBio": "User"
               }
-            ],
-            "showImages": false,
-            "showName": false,
-            "showBio": false,
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
-            "bgColor": "#ffffff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "showTitle": true,
-            "showSubtitle": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "extTestimonials1-i",
           "title": "Wat anderen zeggen over Pelgrim Mediation",
@@ -960,13 +1043,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -985,7 +1068,7 @@
             }
           },
           "text1": "",
-          "text2": "<strong>Bedrijfsinformatie</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Roosduinen 111</span><br>2134 ZA Hoofddorp<br>KvK: <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br>",
+          "text2": "<strong>Bedrijfsinformatie</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Roosduinen 111</span><br>2134 ZA Hoofddorp<br>KvK: <a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\">67718922</a><br>BTW:&nbsp;NL1835.18147.B01<a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br><a href=\"https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=677189220000\"><br></a><br>",
           "text3": "<strong>Contact</strong><br>Email: <a href=\"mailto:info@pelgrimmediation.nl\">info@pelgrimmediation.nl</a><br>Mobiel: 06-51478658<br>"
         }
       ]
